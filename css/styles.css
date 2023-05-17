@@ -461,7 +461,7 @@ nav .link:hover:after {
   transform: translateY(0);
 }
 
-.portfolio-list-item:focus .portfolio-overlay {
+.portfolio-list-item .link:focus .portfolio-overlay {
   transform: translateY(0);
 }
 
