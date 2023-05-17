@@ -112,6 +112,7 @@ img {
   color: var(--grey);
   text-decoration: none;
   padding: 24px 0;
+  
 }
 .nav .link:focus {
   color: #404bbf;
@@ -121,11 +122,12 @@ img {
 }
 .nav-item {
   position: relative;
+  color: #404bbf; 
 }
 
 .link.active:after,
 nav .link:hover:after {
-  content: ' ';
+  content: "" ;
   position: absolute;
   width: 100%;
   border-radius: 2px;
@@ -133,6 +135,8 @@ nav .link:hover:after {
   height: 4px;
   left: 0;
   top: 44px;
+  bottom: -1px;
+  background-color: #404bbf; 
 }
 
 /* Contacts */
