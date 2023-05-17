@@ -129,7 +129,7 @@ img {
 
 
 .link.active:after,
-nav .link:hover:after {
+nav .list .link:hover:after {
   content: '';
   position: absolute;
   width: 100%;
